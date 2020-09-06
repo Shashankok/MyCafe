@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">" मेरा कैफे"</string>
+    <string name="made_by_shashank_sharma">शशांक शर्मा द्वारा बनाया गया</string>
+    <string name="my_cafe">मेरा कैफे</string>
+    <string name="customer_name">ग्राहक का नाम</string>
+    <string name="customer_email">" ग्राहक ईमेल"</string>
+    <string name="toppings">टॉपिंग</string>
+    <string name="whipped_cream">" फेटी हुई मलाई"</string>
+    <string name="chocolate_cream">" चॉकलेट क्रीम"</string>
+    <string name="quantity">मात्रा</string>
+    <string name="price">कीमत</string>
+    <string name="send_order_summary">ऑर्डर बिल भेजें</string>
+</resources>

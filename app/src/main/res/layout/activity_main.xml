@@ -12,7 +12,7 @@
         android:layout_height="match_parent">
         <LinearLayout
             android:layout_width="match_parent"
-            android:layout_height="match_parent"
+            android:layout_height="wrap_content"
             android:orientation="vertical"
             >
 
@@ -21,18 +21,20 @@
                 android:layout_height="wrap_content"
                 android:layout_marginTop="16dp"
                 android:gravity="center"
-                android:text="My Cafe "
+                android:text="@string/my_cafe"
                 android:textSize="24sp" />
 
             <EditText
                 android:id="@+id/name"
+                android:inputType="textPersonName"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_marginStart="16dp"
                 android:layout_marginTop="16dp"
                 android:layout_marginEnd="16dp"
-                android:hint="Customer Name"
-                android:textSize="16sp" />
+                android:hint="@string/customer_name"
+                android:textSize="16sp"
+               />
 
             <EditText
                 android:id="@+id/email"
@@ -41,7 +43,7 @@
                 android:layout_marginStart="16dp"
                 android:layout_marginTop="16dp"
                 android:layout_marginEnd="16dp"
-                android:hint="Customer Email"
+                android:hint="@string/customer_email"
                 android:inputType="textEmailAddress"
                 android:textSize="16sp"
                 />
@@ -51,7 +53,7 @@
                 android:layout_height="wrap_content"
                 android:layout_marginStart="16dp"
                 android:layout_marginTop="16dp"
-                android:text="Toppings"
+                android:text="@string/toppings"
                 android:textAllCaps="true"
                 android:textSize="20sp" />
 
@@ -59,7 +61,7 @@
                 android:id="@+id/whipped_cream"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="Whipped Cream"
+                android:text="@string/whipped_cream"
                 android:layout_marginStart="16dp"
                 android:layout_marginTop="16dp"
                 android:textSize="16sp" />
@@ -70,7 +72,7 @@
                 android:layout_height="wrap_content"
                 android:layout_marginStart="16dp"
                 android:layout_marginTop="16dp"
-                android:text="Chocolate Cream"
+                android:text="@string/chocolate_cream"
                 android:textSize="16sp" />
 
 
@@ -79,7 +81,7 @@
                 android:layout_height="wrap_content"
                 android:layout_marginStart="16dp"
                 android:layout_marginTop="16dp"
-                android:text="Quantity"
+                android:text="@string/quantity"
                 android:textAllCaps="true"
                 android:textSize="20sp"
 
@@ -128,7 +130,7 @@
                 android:layout_height="wrap_content"
                 android:layout_marginStart="16dp"
                 android:layout_marginTop="16dp"
-                android:text="Price"
+                android:text="@string/price"
                 android:textAllCaps="true"
                 android:textSize="20sp" />
 
@@ -148,13 +150,9 @@
                 android:layout_height="wrap_content"
                 android:layout_marginStart="16dp"
                 android:layout_marginTop="16dp"
-                android:text="Send Order Summary" />
+                android:text="@string/send_order_summary" />
 
-            <RelativeLayout
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:layout_marginTop="16dp"
-                >
+
                 <TextView
                     android:id="@+id/linkedIn"
                     android:layout_width="wrap_content"
@@ -163,19 +161,11 @@
                     android:textSize="14sp"
                     android:textColor="#153453"
                     android:layout_marginEnd="16dp"
-                    android:layout_alignParentEnd="true"
-                    android:layout_alignParentBottom="true"
+                    android:layout_gravity="end"
                     android:clickable="true"
                     android:focusable="true"
+                    android:layout_marginTop="35dp"
                     />
-
-
-            </RelativeLayout>
-
-
-
-
-
         </LinearLayout>
 
     </ScrollView>

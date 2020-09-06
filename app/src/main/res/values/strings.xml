@@ -1,4 +1,13 @@
 <resources>
     <string name="app_name">My Cafe</string>
     <string name="made_by_shashank_sharma">Made By Shashank Sharma</string>
+    <string name="my_cafe">My Cafe</string>
+    <string name="customer_name">Customer Name</string>
+    <string name="customer_email">Customer Email</string>
+    <string name="toppings">Toppings</string>
+    <string name="whipped_cream">Whipped Cream</string>
+    <string name="chocolate_cream">Chocolate Cream</string>
+    <string name="quantity">Quantity</string>
+    <string name="price">Price</string>
+    <string name="send_order_summary">Send Order Summary</string>
 </resources>
