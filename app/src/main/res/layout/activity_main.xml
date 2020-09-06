@@ -10,11 +10,11 @@
     <ScrollView
         android:layout_width="match_parent"
         android:layout_height="match_parent">
+
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:orientation="vertical"
-            >
+            android:orientation="vertical">
 
             <TextView
                 android:layout_width="match_parent"
@@ -26,66 +26,36 @@
 
             <EditText
                 android:id="@+id/name"
-                android:inputType="textPersonName"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:layout_marginStart="16dp"
-                android:layout_marginTop="16dp"
-                android:layout_marginEnd="16dp"
+                style="@style/CustomEditText"
                 android:hint="@string/customer_name"
-                android:textSize="16sp"
-               />
+                android:inputType="textPersonName" />
 
             <EditText
                 android:id="@+id/email"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:layout_marginStart="16dp"
-                android:layout_marginTop="16dp"
-                android:layout_marginEnd="16dp"
+                style="@style/CustomEditText"
                 android:hint="@string/customer_email"
-                android:inputType="textEmailAddress"
-                android:textSize="16sp"
-                />
+                android:inputType="textEmailAddress" />
 
             <TextView
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_marginStart="16dp"
-                android:layout_marginTop="16dp"
+                style="@style/CustomTextView"
                 android:text="@string/toppings"
-                android:textAllCaps="true"
-                android:textSize="20sp" />
+                android:textAllCaps="true" />
 
             <CheckBox
                 android:id="@+id/whipped_cream"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:text="@string/whipped_cream"
-                android:layout_marginStart="16dp"
-                android:layout_marginTop="16dp"
-                android:textSize="16sp" />
+                style="@style/CustomCheckBox"
+                android:text="@string/whipped_cream" />
 
             <CheckBox
                 android:id="@+id/chocolate_cream"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_marginStart="16dp"
-                android:layout_marginTop="16dp"
-                android:text="@string/chocolate_cream"
-                android:textSize="16sp" />
+                style="@style/CustomCheckBox"
+                android:text="@string/chocolate_cream" />
 
 
             <TextView
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_marginStart="16dp"
-                android:layout_marginTop="16dp"
+                style="@style/CustomTextView"
                 android:text="@string/quantity"
-                android:textAllCaps="true"
-                android:textSize="20sp"
-
-                />
+                android:textAllCaps="true" />
 
             <LinearLayout
                 android:layout_width="match_parent"
@@ -118,21 +88,14 @@
                     android:text="+"
                     android:textAlignment="center"
                     android:textSize="16sp">
-
                 </Button>
-
-
             </LinearLayout>
 
 
             <TextView
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_marginStart="16dp"
-                android:layout_marginTop="16dp"
+                style="@style/CustomTextView"
                 android:text="@string/price"
-                android:textAllCaps="true"
-                android:textSize="20sp" />
+                android:textAllCaps="true" />
 
             <TextView
                 android:id="@+id/price"
@@ -153,19 +116,18 @@
                 android:text="@string/send_order_summary" />
 
 
-                <TextView
-                    android:id="@+id/linkedIn"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:text="@string/made_by_shashank_sharma"
-                    android:textSize="14sp"
-                    android:textColor="#153453"
-                    android:layout_marginEnd="16dp"
-                    android:layout_gravity="end"
-                    android:clickable="true"
-                    android:focusable="true"
-                    android:layout_marginTop="35dp"
-                    />
+            <TextView
+                android:id="@+id/linkedIn"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="end"
+                android:layout_marginTop="35dp"
+                android:layout_marginEnd="16dp"
+                android:clickable="true"
+                android:focusable="true"
+                android:text="@string/made_by_shashank_sharma"
+                android:textColor="#153453"
+                android:textSize="14sp" />
         </LinearLayout>
 
     </ScrollView>
