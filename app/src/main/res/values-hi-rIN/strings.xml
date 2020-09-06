@@ -11,4 +11,7 @@
     <string name="quantity">मात्रा</string>
     <string name="price">कीमत</string>
     <string name="send_order_summary">ऑर्डर बिल भेजें</string>
+    <string name="name_error">नाम फ़ील्ड खाली नहीं हो सकती </string>
+    <string name="email_error">ईमेल फ़ील्ड खाली नहीं हो सकती</string>
+
 </resources>

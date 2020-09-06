@@ -10,4 +10,6 @@
     <string name="quantity">Quantity</string>
     <string name="price">Price</string>
     <string name="send_order_summary">Send Order Summary</string>
+    <string name="name_error">Name field cannot be empty</string>
+    <string name="email_error">Email field cannot be empty</string>
 </resources>

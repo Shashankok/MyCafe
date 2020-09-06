@@ -141,9 +141,9 @@ public class MainActivity extends AppCompatActivity {
                 "\nTotal Price: " + price_checker + "\n\n\nThank You, Have A Nice Day";
 
         if (TextUtils.isEmpty(your_name)) {
-            name.setError("Name field cannot be empty");
+            name.setError(getString(R.string.name_error));
         } else if (TextUtils.isEmpty(your_email)) {
-            email.setError("Email field cannot be empty");
+            email.setError(getString(R.string.email_error));
         } else {
             name.setError(null);
             email.setError(null);
